@@ -14,11 +14,17 @@ Supports multiple concurrent clients with username-based authentication.
 - Heartbeat system (PING/PONG)
 - Graceful disconnect handling
 
+## video demo
+
+https://drive.google.com/file/d/1rRjNS-ITayrnMrHGyZSFbPb8qMkBYdpS/view?usp=sharing
+
 ## Quick Start
 
 # Clone and run
 git clone 
+
 cd tcp-chat-server
+
 node chat-server.js
 
 ## Commands
