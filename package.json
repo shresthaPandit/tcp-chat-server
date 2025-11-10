@@ -1,0 +1,23 @@
+{
+  "name": "tcp-chat-server",
+  "version": "1.0.0",
+  "description": "A simple TCP chat server built with Node.js raw sockets",
+  "main": "chat-server.js",
+  "scripts": {
+    "start": "node chat-server.js",
+    "client": "node test-client.js",
+    "test": "echo 'Open multiple terminals and run: npm run client' && exit 0"
+  },
+  "keywords": [
+    "tcp",
+    "socket",
+    "chat",
+    "server",
+    "real-time"
+  ],
+  "author": "Jami",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
